@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main () {
+    // simple calculator 
+    int x,y;
+    printf("enter any two number :");
+    scanf("%d %d",&x,&y);
+    int c;
+    printf(" for add press 1 \n for sub press 2 \n for mul press 3 \n for divide press 4 \n");
+    scanf("%d",&c);
+    if (c==1){
+        printf("%d",x+y);
+    }
+    else if (c==2){
+        printf("%d",x-y);
+    }
+    else if (c==3){
+        printf("%d",x*y);
+    }
+    else if (c==4){
+        printf("%d",x/y);
+    }
+    else {
+        printf("enter any valid number ");
+    }
+    return 0;
+}
